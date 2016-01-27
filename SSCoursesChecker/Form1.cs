@@ -16,12 +16,10 @@ namespace SSCoursesChecker
         {
             InitializeComponent(); 
         }
-        public string inputpath = @"input.txt";
-        public string outputpath = @"output.txt";
         public string programname = "Soft Serve courses checker";
 
-        //public string inputpath = @"C:\Users\nex74\Desktop\input.txt";
-        //public string outputpath = @"C:\Users\nex74\Desktop\output.txt";
+        public string inputpath = Application.StartupPath + @"\input.txt";
+        public string outputpath = Application.StartupPath + @"\output.txt";
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -36,6 +34,9 @@ namespace SSCoursesChecker
             List<string> ResultList = new List<string>();
 
             string config = cr.Index();
+
+            //
+
             ConfigList = pc.Index(config);
 
             ParsedList.Add( sd.Parse("technology"));
@@ -47,6 +48,7 @@ namespace SSCoursesChecker
             OutputData(ResultList);
 
         }
+
         private bool AutorunCheck()
         {
             string registryKey = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Run";
@@ -129,6 +131,7 @@ namespace SSCoursesChecker
                 key.DeleteValue("Soft Serve courses checker", false);
                 key.Close();
             }
+            
         }
         private List<string> FindLookingItems(List<List<string>> config, List<List<string>> parsed)
         {

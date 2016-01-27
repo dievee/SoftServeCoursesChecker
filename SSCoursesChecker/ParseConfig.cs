@@ -15,9 +15,41 @@ namespace SSCoursesChecker
         List<string> CityMembers = new List<string>();
         List<string> StatusMembers = new List<string>();
 
+        public string DeleteExcess(string config)
+        {
+            config = config.Replace(" ", string.Empty);
+            config = config.ToLower();
+
+            config = config.Replace("\r", "");
+            config = config.Replace("\n", "");
+
+            return config;
+        }
+
+        public string DeleteComments(string config)
+        {
+            int i = 0;
+            while (i != config.Length)
+            {
+                if (config[i] == '/' && config[i + 1] == '/' &&
+                    config[i + 2] == '/' && config[i + 3] == '/')
+                {
+                    config = config.Remove(i);
+                    break;
+                }
+                i++;
+            }
+
+            return config;
+        }
+
         public List<List<string>> Index(string config)
         {
             int numberOfDoneCatt = 0;
+
+            config = DeleteComments(config);
+            config = DeleteExcess(config);
+
             for (int i = 0; i < config.Length; i++)
             {
                 string part = "";

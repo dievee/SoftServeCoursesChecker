@@ -23,7 +23,7 @@ namespace SSCoursesChecker
         {
             List<string> Arr = new List<string>();
             CQ cq = CQ.Create(Read());
-            ConfigRead cr = new ConfigRead();
+            ParseConfig pc = new ParseConfig();
             switch (type)
             {
                 case "link":
@@ -38,7 +38,7 @@ namespace SSCoursesChecker
 
                     foreach (IDomObject obj in cq.Find("div.row dl.col-xs-6:nth-child(2) dd"))
                     {
-                        Arr.Add(WebUtility.HtmlDecode( cr.DeleteExcess(obj.InnerText) ));
+                        Arr.Add(WebUtility.HtmlDecode( pc.DeleteExcess(obj.InnerText) ));
                         
                     }
                     break;
@@ -47,7 +47,7 @@ namespace SSCoursesChecker
 
                     foreach (IDomObject obj in cq.Find("div.row dl.col-xs-6:nth-child(3) dd"))
                     {
-                        Arr.Add(WebUtility.HtmlDecode(cr.DeleteExcess(obj.InnerText) ));
+                        Arr.Add(WebUtility.HtmlDecode(pc.DeleteExcess(obj.InnerText) ));
                     }
                     break;
 
@@ -55,7 +55,7 @@ namespace SSCoursesChecker
 
                     foreach (IDomObject obj in cq.Find("div.card-courses_label .label"))
                     {
-                        Arr.Add(WebUtility.HtmlDecode(cr.DeleteExcess(obj.InnerText) ));
+                        Arr.Add(WebUtility.HtmlDecode(pc.DeleteExcess(obj.InnerText) ));
                     }
                     break;
                 default:

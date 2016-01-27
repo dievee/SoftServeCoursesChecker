@@ -26,35 +26,6 @@ namespace SSCoursesChecker
 
             }
 
-
-            config = DeleteComments(config);            
-            config = DeleteExcess(config);
-
-            return config;
-        }
-        public string DeleteExcess(string config)
-        {
-            config = config.Replace(" ", string.Empty);
-            config = config.ToLower();
-
-            config = config.Replace("\r", "");
-            config = config.Replace("\n", "");
-
-            return config;
-        }
-        public string DeleteComments(string config)
-        {
-            int i = 0;
-            while(i != config.Length)
-            {
-                if (config[i] == '/' && config[i+1] =='/')
-                {
-                    config = config.Remove(i);
-                    break;
-                } 
-                i++;
-            }
-
             return config;
         }
 
