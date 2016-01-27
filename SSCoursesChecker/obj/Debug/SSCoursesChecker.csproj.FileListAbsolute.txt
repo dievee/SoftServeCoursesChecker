@@ -1,0 +1,11 @@
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\bin\Debug\SSCoursesChecker.exe.config
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\bin\Debug\SSCoursesChecker.exe
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\bin\Debug\SSCoursesChecker.pdb
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.csprojResolveAssemblyReference.cache
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.Form1.resources
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.Properties.Resources.resources
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.csproj.GenerateResource.Cache
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.exe
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.pdb
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\bin\Debug\CsQuery.dll
+D:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\bin\Debug\CsQuery.xml
