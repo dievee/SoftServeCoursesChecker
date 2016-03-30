@@ -12,9 +12,19 @@ namespace SSCoursesChecker
         public string Read()
         {
             WebClient httpClient = new WebClient();
-            Stream data = httpClient.OpenRead("https://softserve.ua/app/forms/itacademyschedule/EN/");
-            StreamReader readStream = new StreamReader(data);
-            string s = readStream.ReadToEnd();
+            string s = "";
+            try
+            {
+                Stream data = httpClient.OpenRead("https://softserve.ua/app/forms/itacademyschedule/EN/");
+                StreamReader readStream = new StreamReader(data);
+                s = readStream.ReadToEnd();
+                
+            }
+            catch(WebException)
+            {
+                System.Windows.Forms.MessageBox.Show("You have problem with your internet connection. Bye.");
+                Environment.Exit(0);   
+            }
 
             return s;
         }

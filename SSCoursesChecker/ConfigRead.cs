@@ -21,7 +21,7 @@ namespace SSCoursesChecker
             catch (FileNotFoundException)
             {
                 MessageBox.Show("I can't find input.txt in program folder. Bye.");
-
+                //config = "Technologies: .NET;Java;devops; Cities: Kyiv;Lviv; Status: Register;Planned;";
                 Environment.Exit(0);
 
             }
