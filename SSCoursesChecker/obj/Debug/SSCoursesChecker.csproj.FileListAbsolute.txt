@@ -20,3 +20,14 @@ C:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesCheck
 C:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.Form1.resources
 C:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.Properties.Resources.resources
 C:\Sources\VSProjects\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.csproj.GenerateResource.Cache
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\bin\Debug\SSCoursesChecker.exe.config
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.exe
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.pdb
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\bin\Debug\SSCoursesChecker.exe
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\bin\Debug\SSCoursesChecker.pdb
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\bin\Debug\CsQuery.dll
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\bin\Debug\CsQuery.xml
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.csprojResolveAssemblyReference.cache
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.Form1.resources
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.Properties.Resources.resources
+C:\Sources\GitRepo\SSCoursesChecker\SSCoursesChecker\obj\Debug\SSCoursesChecker.csproj.GenerateResource.Cache

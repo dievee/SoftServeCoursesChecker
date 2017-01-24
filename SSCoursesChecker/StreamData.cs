@@ -15,7 +15,7 @@ namespace SSCoursesChecker
             string s = "";
             try
             {
-                Stream data = httpClient.OpenRead("https://softserve.ua/app/forms/itacademyschedule/EN/");
+                Stream data = httpClient.OpenRead("https://my.softserve.ua/schedule"); // https://softserve.ua/app/forms/itacademyschedule/EN/
                 StreamReader readStream = new StreamReader(data);
                 s = readStream.ReadToEnd();
                 

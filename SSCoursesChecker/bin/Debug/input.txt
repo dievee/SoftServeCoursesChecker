@@ -1,0 +1,1 @@
+Technologies: .NET;java;qa;python; Cities: Kyiv;Chernivtsi;Dnipro; Status: Register;Planned;
